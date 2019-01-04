@@ -27,7 +27,7 @@ $db = new Medoo([
 ]);
 $TicketService = new Ticket($db);
 
-// 初始化：生成所有座位票数据
+// 初始化：生成所有座位票
 // $TicketService->initTickets();
 
 // 查询余票
